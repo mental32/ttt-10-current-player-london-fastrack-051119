@@ -1,5 +1,5 @@
 def turn_count(board)
-  board.count(" ") - 9
+  board.length - board.count(" ")
 end
 
 def current_player(board)
